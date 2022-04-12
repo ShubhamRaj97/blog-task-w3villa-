@@ -1,10 +1,10 @@
 <div class ="container mt-3">
-<h3><%= @blog.title %></h3>
-<p class="img-show"><% if @blog.image.present? %>
+<h3  class="text-center" ><%= @blog.title%></h3>
+<div class="img-show-main"><% if @blog.image.present? %>
 
   <%= image_tag @blog.image ,class:"img-class"%><% end %>
 
-</p>
+</div>
 
 <p><%= @blog.content %></p>
 

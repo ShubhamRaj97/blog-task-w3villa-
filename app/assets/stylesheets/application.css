@@ -14,7 +14,9 @@
  *= require_self
  */
 
- 
+a{
+    text-decoration: none !important;
+}
 body{
 margin: 0;padding: 0;
 }
@@ -75,6 +77,9 @@ display: flex;
 
 .img-class{
     width: 60%;
+        margin: 20px auto;
+    display: block;
+
 }
 .container{
     margin: auto;
